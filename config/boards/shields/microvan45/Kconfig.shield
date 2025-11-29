@@ -1,0 +1,2 @@
+config SHIELD_MICROVAN45
+    def_bool $(shields_list_contains,microvan45)

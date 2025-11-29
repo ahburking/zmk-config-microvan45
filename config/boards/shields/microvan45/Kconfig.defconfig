@@ -1,0 +1,6 @@
+if SHIELD_MICROVAN45
+
+config ZMK_KEYBOARD_NAME
+    default "microvan45"
+
+endif
