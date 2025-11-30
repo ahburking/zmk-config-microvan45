@@ -3,17 +3,15 @@
 #include <dt-bindings/zmk/bt.h>
 
 
+/ {
 behaviors {
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&mo 1>, <&mo 3>;
+            bindings = <&kp RALT>, <&mo 3>;
         };
     };
-
-
-/ { 
    
     keymap {
         compatible = "zmk,keymap";
